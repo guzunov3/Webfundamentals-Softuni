@@ -1,0 +1,77 @@
+@import url('./typograhpy.css');
+
+header:first-of-type {
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav>ul
+/* Избира само първият ul в навигацията, което позволява на другите да не са флекс */
+
+    {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+}
+
+nav li:hover>ul
+/*С това избираме да се покаже само UL, който е пръв наследник*/
+    {
+    display: block;
+}
+
+nav>ul>li>ul {
+    top: 100%;
+    left: 0;
+}
+
+nav>ul>li>ul>li>ul {
+    top: 0;
+    left: inherit;
+    right: 100%;
+}
+
+#main-nav-toggle {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    header nav.main {
+        display: none;
+    }
+    #main-nav-toggle:checked+header nav.main {
+        display: block;
+    }
+    nav.main {
+        flex-basis: 100%;
+        margin-right: 1rem;
+            }
+    nav.main>ul {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+    nav.main>ul li:last-child {
+        padding-right: 7px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #toggle {
+        display: none;
+    }
+}

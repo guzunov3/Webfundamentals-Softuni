@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 10%; 
+}
+
+.page {
+    border-bottom: 2px solid black;
+
+}
+.page:after {
+    display: block;
+        content: '';
+        clear: both;
+        }
+
+header .site-title {
+    float: left;
+    font-size: 3rem;
+    font-weight: bold;
+}
+header nav ul li {
+    list-style: none outside;
+    float: right;
+    margin: 2rem 3rem 0 0;
+    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: green;
+}
+
+/* Articles and aside */
+.align-left {
+    float: left;
+    margin: 0 1rem 1rem 0;
+}
+.align-right {
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+blockquote {
+    width: 40%;
+    float: right;
+}
+img[class^="align-"] {
+    border: 2px solid black;
+    padding: 0.5rem;
+    box-shadow: 0 0 5rem 0.1rem rgba(0,0,0,0.25);
+}
+
+main > article {
+    width: 70%;
+    float: left;
+}
+aside {
+    width: 30%;
+    float: left;
+    padding-left: 3rem;
+}
+
+aside > ul > li > a {
+    color: green;
+    text-decoration: none;
+}

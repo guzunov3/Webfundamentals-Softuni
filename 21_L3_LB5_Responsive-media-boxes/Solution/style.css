@@ -1,0 +1,29 @@
+body {
+    margin: 5rem;
+    padding: 5em;
+}
+
+.card {
+    display: block;
+    background: white;
+    border-radius: 0.5rem;
+    max-width: 18.8rem;
+    box-shadow: 0 0 5rem 0.1rem black;
+    overflow: hidden;
+    margin: 1rem;
+    float: left;
+}
+
+.card .media {
+    position: relative;
+}
+
+a.button {
+    display: block;
+    background: green;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    float: right;
+    margin: 5px;
+}

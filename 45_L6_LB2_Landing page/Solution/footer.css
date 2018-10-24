@@ -1,0 +1,39 @@
+footer div ul:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 15%;
+    list-style: none;
+}
+
+footer div ul {
+    padding: 0 1rem 0 0;
+}
+
+footer div ul li {
+    flex-basis: 25%;
+    padding-left: 0;
+}
+
+footer .wrapper .fas {
+    font-size: 12px;
+}
+
+footer ul li,
+footer ul li a {
+    display: block;
+}
+
+
+footer ul li:first-of-type a {
+    margin-top: 4rem;
+}
+
+footer ul li a {
+     width: 10rem;
+        text-decoration: none;
+    color: black;
+    
+    }
+
+
+

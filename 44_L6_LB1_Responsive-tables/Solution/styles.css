@@ -1,0 +1,43 @@
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 1px solid rgb(221,221,221);
+}
+
+table thead th {
+    text-align: left;
+     border: 1px solid gray;
+}
+
+table td {
+    border: 1px solid gray; 
+}
+
+tbody > tr:nth-child(1) {
+    background: #EADEDE;
+}
+
+table thead:hover {
+    background: black;
+    color: white;
+}
+
+
+@media screen and (max-width: 800px) {
+    table thead {
+        display: none;
+    }
+
+    table,
+    tbody, thead, tr, td {
+  display: block;
+          }
+
+          table tbody td:before {
+              font-weight: bold;
+              padding-right: 2rem;
+              content: attr(data-label);
+          }
+         
+}

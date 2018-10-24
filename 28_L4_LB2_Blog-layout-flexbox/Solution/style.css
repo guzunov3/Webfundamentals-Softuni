@@ -1,0 +1,39 @@
+
+.header {
+    border-bottom: 2px solid black;
+    flex: 1 0 100%;
+}
+
+main {
+    flex: 1 0 80%;
+}
+
+aside {
+    flex: 1 0 20%;
+       align-items: flex-end;
+}
+
+.site-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.section h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.section nav {
+    display: flex;
+    justify-content: center;
+}
+
+.section1 h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.section1 nav {
+    display: flex;
+    justify-content: center;
+}

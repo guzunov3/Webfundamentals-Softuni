@@ -1,0 +1,45 @@
+/*Our team*/
+.team .wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team .wrapper ul li {
+    flex: 1 0 30%;
+    list-style: none;
+}
+
+.team span {
+    display: block;
+    text-align: center;
+    
+}
+
+.team ul li:last-child {
+    margin-bottom: 4rem;
+}
+
+.team .avatar img {   
+    margin: 3rem 0;
+    width: 6rem;
+    position: relative;
+    border-radius: 50%;
+    }
+
+.team .avatar img:before {
+    display: block;
+    content: '';
+    padding-top: 100%;
+} */
+
+.person {
+    padding-bottom: 3rem;
+}
+
+.Name {
+   font-weight: bold;;
+}
+
+.quote { 
+    font-style: italic;
+}

@@ -1,0 +1,36 @@
+@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');
+
+button {
+    border: 1px solid black;
+    outline-style:none;
+    padding: 0.3rem;
+}
+
+button[class^="gosho"] {
+    border-radius: 10px;
+    outline-style: none;
+
+}
+
+button.gosho {
+    background: transparent;
+}
+
+button.gosho:hover {
+    border: 1px solid green;
+    /* outline-style:none; */
+    padding: 0.3rem;
+    color: green;
+}
+
+button.gosho2 {
+    color: white;
+    background: black;
+    /* border: 2px solid black; */
+
+}
+
+button.gosho2:hover {
+    background: green;
+    border: none;
+}

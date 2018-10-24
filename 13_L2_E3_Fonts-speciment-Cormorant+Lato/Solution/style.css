@@ -1,0 +1,8 @@
+body {
+    margin: 5em;
+    font: 16px/1.5 Lato, Sans-serif;
+}
+h1, h2 {
+    font-family: Cormorant, serif;
+    font-weight: bold;
+}

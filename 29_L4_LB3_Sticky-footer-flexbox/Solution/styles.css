@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+footer {
+    margin-top: auto;
+    background: black;
+    color: white;
+    padding: 1rem;
+}

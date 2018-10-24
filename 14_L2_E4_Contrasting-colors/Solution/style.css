@@ -1,0 +1,16 @@
+body {
+    font: 16px/1.5 Helvetica, Sans-serif;
+color: white;
+}
+article {
+    margin: 10em;
+    background: rgb(51, 102, 153);
+    border-radius: 1rem;
+}
+article  {
+    padding: 2rem;
+}
+article h1 {
+    font-size: 2.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif
+   }

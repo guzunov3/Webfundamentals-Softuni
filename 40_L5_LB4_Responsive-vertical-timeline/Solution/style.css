@@ -1,0 +1,44 @@
+body {
+    /* padding: 1rem; */
+}
+
+.timeline {
+    border: 2px solid black;
+    padding: 2rem;
+}
+
+.timeline .inner {
+    position: relative;
+    width: 0.5rem;
+    background: black;
+    margin: 0 auto;
+}
+
+.timeline article {
+    width: 40vw;
+    padding: 0 2rem;
+    position: relative;
+}
+
+.timeline article header:after {
+    display:block;
+    content: '';
+    width: 2rem;
+    height: 2rem;
+    border: 0.4rem solid gray;
+    background: orange;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: -18px;
+}
+
+.timeline article:nth-child(even) {
+       right: 44vw;
+       text-align: right;
+}
+
+.timeline article:nth-child(even) header:after {
+    left: inherit;
+right: -12px;
+}

@@ -1,0 +1,18 @@
+.tri{
+    background: green;
+    border-radius: 6px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+   }
+p {
+    margin: 3em;
+}
+.chetiri {    
+    text-decoration: none;
+    background: orange;
+    border-radius: 6px;
+    padding: 10px;
+    color: white
+    
+}

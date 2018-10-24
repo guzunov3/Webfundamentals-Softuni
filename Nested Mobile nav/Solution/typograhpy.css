@@ -1,0 +1,32 @@
+p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+nav > ul > li:not(:last-child) {
+    padding-right: 0.5rem;
+}
+
+nav li {
+    display: block;
+}
+
+nav ul ul {
+    padding: 0;
+    width: 9rem;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background: black;
+    
+    padding: 0.3rem;
+    
+    border-radius: 5px;
+}
+
+nav li:hover > a /* Kogato hover li to stava zeleno, a negovite deca a-ta ostavat zeleni*/,
+nav a:hover {
+    background: green;
+}

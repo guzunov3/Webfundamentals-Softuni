@@ -1,0 +1,29 @@
+body {
+    background: #EEEEEE;
+    /* margin: 0 auto; */
+}
+
+.auto {
+     margin: 0 auto; 
+    width: 80%;
+}
+
+.auto ul {
+    display: inline-block;
+    list-style: none;
+    /* margin: 0 auto; */
+}
+
+.auto ul li {
+    margin: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid black;
+    padding: 0.5rem;
+}
+
+
+
+.resize-image {
+    width: 300px;
+}

@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* padding: 1rem; */
+}
+
+.timeline {
+    border: 2px solid black;
+    padding: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.timeline p {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 3px;
+}
+
+.timeline p a {
+    text-decoration: none;
+    color: blue;
+}
+
+.timeline .inner {
+    position: relative;
+    width: 0.5rem;
+    background: black;
+        text-align: left;
+}
+
+.timeline article {
+    width: 40vw;
+    padding: 0 2rem;
+    position: relative;
+}
+
+.timeline article header:after {
+    display:block;
+    content: '';
+    width: 2rem;
+    height: 2rem;
+    border: 0.4rem solid gray;
+    background: orange;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: -18px;
+}
+
+
+
+
+
+@media screen and (min-width: 800px) {
+
+    .timeline .inner {
+        margin: 0 auto;
+    }
+
+
+    
+    .timeline article:nth-child(even) {
+        right: 44vw;
+        text-align: right;
+ }
+ 
+ .timeline article:nth-child(even) header:after {
+     left: inherit;
+ right: -90px;
+ }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .timeline article {
+        width: 80vw;
+        padding: 0 2rem;
+        position: relative;
+    }
+
+    .timeline article:nth-child(even) {
+        /* right: 44vw; */
+        text-align: left;
+ }
+
+    .timeline article:nth-child(even) header:after {
+        left: -18px;    
+    }
+    section {
+        display: block;
+    }
+}

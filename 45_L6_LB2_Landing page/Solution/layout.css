@@ -1,0 +1,24 @@
+header.header-first {
+    border-bottom: 2px solid black;
+}
+
+div.wrapper {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.web-service .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .copy {
+    width: 35rem;
+    margin-right: 10px;
+}
+
+.wrapper .fas {
+font-size: 133px;
+}
